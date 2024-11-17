@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import CardObserver from "@/components/CardObserver/tsx";
+import CardObserver from "@/components/CardObserver.tsx";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "@/lib/store.ts";
 import {
