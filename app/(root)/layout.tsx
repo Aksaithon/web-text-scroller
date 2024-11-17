@@ -1,7 +1,5 @@
-import SideBar from "@/components/MySideBar";
-import type { Metadata } from "next";
+import SideBar from "@/components/MySideBar.tsx";
 import { Inter } from "next/font/google";
-import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 

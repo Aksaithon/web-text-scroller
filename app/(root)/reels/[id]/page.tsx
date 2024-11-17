@@ -1,17 +1,16 @@
 "use client";
-import Card from "@/components/Card";
+import Card from "@/components/Card.tsx";
 import {
   addNewReel,
   setAllReels,
-} from "@/lib/features/addReelPosts/reelPostSlice";
-import { isDataLeft } from "@/lib/features/dataLeft/dataLeftSlice";
-import { updatePageNo } from "@/lib/features/pageNo/pageNoSlice";
-import { updateIndex } from "@/lib/features/reelIndex/reelIndexSlice";
-import { AppDispatch, RootState } from "@/lib/store";
+} from "@/lib/features/addReelPosts/reelPostSlice.ts";
+import { isDataLeft } from "@/lib/features/dataLeft/dataLeftSlice.ts";
+import { updatePageNo } from "@/lib/features/pageNo/pageNoSlice.ts";
+import { updateIndex } from "@/lib/features/reelIndex/reelIndexSlice.ts";
+import { AppDispatch, RootState } from "@/lib/store.ts";
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const Reel = ({ params }: any) => {

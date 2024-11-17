@@ -20,18 +20,18 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar";
+} from "@/components/ui/sidebar.tsx";
 import { DashboardIcon } from "@radix-ui/react-icons";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "./ui/dropdown-menu.tsx";
 import { useSelector } from "react-redux";
-import { RootState } from "@/lib/store";
-import Profile_Editor from "./Profile_Editor";
-import Post_Creator from "./Post_Creator";
+import { RootState } from "@/lib/store.ts";
+import Profile_Editor from "./Profile_Editor.tsx";
+import Post_Creator from "./Post_Creator.tsx";
 import Link from "next/link";
 
 // Menu items.

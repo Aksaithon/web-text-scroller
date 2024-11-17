@@ -2,9 +2,9 @@
 import { SignInButton, SignOutButton, SignUpButton } from "@clerk/nextjs";
 import Link from "next/link";
 import React from "react";
-import { Button } from "./ui/button";
+import { Button } from "./ui/button.tsx";
 import { useDispatch } from "react-redux";
-import { clearUserData } from "@/lib/features/addUserData/userDataSlice";
+import { clearUserData } from "@/lib/features/addUserData/userDataSlice.ts";
 
 const SideBar = () => {
   const dispatch = useDispatch();

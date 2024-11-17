@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button.tsx";
 import {
   Form,
   FormControl,
@@ -14,15 +14,15 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+} from "@/components/ui/form.tsx";
+import { Input } from "@/components/ui/input.tsx";
 import { Check, CheckIcon, Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useDispatch } from "react-redux";
 import {
   setFullName,
   setUserName,
-} from "@/lib/features/addUserData/userDataSlice";
+} from "@/lib/features/addUserData/userDataSlice.ts";
 
 interface Userdata {
   id: string | undefined;

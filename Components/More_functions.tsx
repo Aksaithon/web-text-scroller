@@ -4,32 +4,23 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import {
-  CheckCircle,
-  CheckCircle2Icon,
-  CheckIcon,
-  CircleCheck,
-  Loader2,
-  LucideCheck,
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+} from "@/components/ui/form.tsx";
+import { CheckIcon, Loader2 } from "lucide-react";
+import { Button } from "@/components/ui/button.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { BreadcrumbEllipsis, BreadcrumbItem } from "./ui/breadcrumb";
-import { DialogDemo } from "./Dialog";
+} from "@/components/ui/dropdown-menu.tsx";
+import { BreadcrumbEllipsis, BreadcrumbItem } from "./ui/breadcrumb.tsx";
 import {
   Dialog,
   DialogContent,

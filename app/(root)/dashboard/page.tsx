@@ -1,47 +1,15 @@
 "use client";
-import Card from "@/components/Card";
-import EditProfileForm from "@/components/EditProfileForm";
-import { Button } from "@/components/ui/button";
-import { SignOutButton, useUser } from "@clerk/nextjs";
+import { useUser } from "@clerk/nextjs";
 import React, { useEffect, useRef, useState } from "react";
-
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-
-// import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-// import { Input } from "@/components/ui/input";
-// import {
-//   CheckCircle,
-//   CheckCircle2Icon,
-//   CheckIcon,
-//   CircleCheck,
-//   Loader2,
-//   LucideCheck,
-//   PlusIcon,
-// } from "lucide-react";
 import { useRouter } from "next/navigation";
 import CardObserver from "@/components/CardObserver";
 
 import { useDispatch, useSelector } from "react-redux";
 import {
-  // clearUserData,
   setUserData,
 } from "@/lib/features/addUserData/userDataSlice";
-import { AppDispatch, RootState } from "@/lib/store";
-import { addUserPosts } from "@/lib/features/addUserPosts/userPostSlice";
-// import {
-//   Dialog,
-//   DialogContent,
-//   DialogDescription,
-//   DialogFooter,
-//   DialogHeader,
-//   DialogTitle,
-//   DialogTrigger,
-// } from "@/components/ui/dialog";
-// import { Label } from "@/components/ui/label";
-// import Profile_Editor from "@/components/Profile_Editor";
-// import Post_Creator from "@/components/Post_Creator";
+import { AppDispatch, RootState } from "@/lib/store.ts";
+import { addUserPosts } from "@/lib/features/addUserPosts/userPostSlice.ts";
 
 interface myUser {
   id: string;

@@ -1,5 +1,5 @@
-import getConnection from "@/lib/dbConnect";
-import Page from "@/Models/PageDataSchema";
+import getConnection from "@/lib/dbConnect.ts";
+import Page from "@/Models/PageDataSchema.ts";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function PUT(req: NextRequest) {

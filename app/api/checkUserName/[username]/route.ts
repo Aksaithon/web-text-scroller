@@ -1,5 +1,5 @@
-import getConnection from "@/lib/dbConnect";
-import Users from "@/Models/UserDataSchema";
+import getConnection from "@/lib/dbConnect.ts";
+import Users from "@/Models/UserDataSchema.ts";
 import { NextResponse } from "next/server";
 
 
