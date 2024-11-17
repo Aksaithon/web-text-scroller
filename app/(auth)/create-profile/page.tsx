@@ -1,5 +1,5 @@
 "use client";
-import SignUpForm from "../../../components/SignUpForm.jsx";
+import SignUpForm from "C:\Users\hp\Documents\Working-Projects\web-page-scroller\components\SignUpForm.tsx";
 import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
