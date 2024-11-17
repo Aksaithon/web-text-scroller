@@ -1,4 +1,4 @@
-import SideBar from "@/components/MySideBar.tsx";
+import SideBar from "@/components/MySideBar";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });

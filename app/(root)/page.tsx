@@ -1,12 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import CardObserver from "@/components/CardObserver.tsx";
+import CardObserver from "@/components/CardObserver";
 import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "@/lib/store.ts";
+import { AppDispatch, RootState } from "@/lib/store";
 import {
   addNewReel,
   setAllReels,
-} from "@/lib/features/addReelPosts/reelPostSlice.ts";
+} from "@/lib/features/addReelPosts/reelPostSlice";
 import Link from "next/link";
 
 interface TextData {

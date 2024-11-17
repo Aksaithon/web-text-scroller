@@ -1,13 +1,13 @@
 "use client";
-import Card from "@/components/Card.tsx";
+import Card from "@/components/Card";
 import {
   addNewReel,
   setAllReels,
-} from "@/lib/features/addReelPosts/reelPostSlice.ts";
-import { isDataLeft } from "@/lib/features/dataLeft/dataLeftSlice.ts";
-import { updatePageNo } from "@/lib/features/pageNo/pageNoSlice.ts";
-import { updateIndex } from "@/lib/features/reelIndex/reelIndexSlice.ts";
-import { AppDispatch, RootState } from "@/lib/store.ts";
+} from "@/lib/features/addReelPosts/reelPostSlice";
+import { isDataLeft } from "@/lib/features/dataLeft/dataLeftSlice";
+import { updatePageNo } from "@/lib/features/pageNo/pageNoSlice";
+import { updateIndex } from "@/lib/features/reelIndex/reelIndexSlice";
+import { AppDispatch, RootState } from "@/lib/store";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useRef, useState } from "react";

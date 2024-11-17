@@ -8,8 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   setUserData,
 } from "@/lib/features/addUserData/userDataSlice";
-import { AppDispatch, RootState } from "@/lib/store.ts";
-import { addUserPosts } from "@/lib/features/addUserPosts/userPostSlice.ts";
+import { AppDispatch, RootState } from "@/lib/store";
+import { addUserPosts } from "@/lib/features/addUserPosts/userPostSlice";
 
 interface myUser {
   id: string;

@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { More_functions } from "./More_functions.tsx";
+import { More_functions } from "./More_functions";
 import Image from "next/image";
 import { useDispatch } from "react-redux";
-import { updateReel } from "@/lib/features/addReelPosts/reelPostSlice.ts";
-import { updatePost } from "@/lib/features/addUserPosts/userPostSlice.ts";
+import { updateReel } from "@/lib/features/addReelPosts/reelPostSlice";
+import { updatePost } from "@/lib/features/addUserPosts/userPostSlice";
 
 const Card = ({
   cardRef,

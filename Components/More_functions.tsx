@@ -9,9 +9,9 @@ import {
   FormControl,
   FormField,
   FormItem,
-} from "@/components/ui/form.tsx";
+} from "@/components/ui/form";
 import { CheckIcon, Loader2 } from "lucide-react";
-import { Button } from "@/components/ui/button.tsx";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -19,8 +19,8 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu.tsx";
-import { BreadcrumbEllipsis, BreadcrumbItem } from "./ui/breadcrumb.tsx";
+} from "@/components/ui/dropdown-menu";
+import { BreadcrumbEllipsis, BreadcrumbItem } from "./ui/breadcrumb";
 import {
   Dialog,
   DialogContent,
@@ -31,7 +31,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "@/lib/store";

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Card from "./Card.tsx";
+import Card from "./Card";
 
 export default function CardObserver({
   objectId,

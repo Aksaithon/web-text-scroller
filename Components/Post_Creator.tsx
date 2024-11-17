@@ -6,14 +6,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./ui/dialog.tsx";
-import { Button } from "./ui/button.tsx";
+} from "./ui/dialog";
+import { Button } from "./ui/button";
 import { CheckIcon, Loader2, PlusIcon } from "lucide-react";
-import Card from "./Card.tsx";
+import Card from "./Card";
 import { useSelector } from "react-redux";
-import { RootState } from "@/lib/store.ts";
-import { Form, FormControl, FormField, FormItem } from "@/components/ui/form.tsx";
-import { Input } from "./ui/input.tsx";
+import { RootState } from "@/lib/store";
+import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
+import { Input } from "./ui/input";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";

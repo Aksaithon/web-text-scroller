@@ -1,12 +1,8 @@
 "use client";
 
 import {
-  Calendar,
   ChevronUp,
   Home,
-  Inbox,
-  Search,
-  Settings,
   User2,
 } from "lucide-react";
 
@@ -20,18 +16,18 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar.tsx";
+} from "@/components/ui/sidebar";
 import { DashboardIcon } from "@radix-ui/react-icons";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu.tsx";
+} from "./ui/dropdown-menu";
 import { useSelector } from "react-redux";
-import { RootState } from "@/lib/store.ts";
-import Profile_Editor from "./Profile_Editor.tsx";
-import Post_Creator from "./Post_Creator.tsx";
+import { RootState } from "@/lib/store";
+import Profile_Editor from "./Profile_Editor";
+import Post_Creator from "./Post_Creator";
 import Link from "next/link";
 
 // Menu items.

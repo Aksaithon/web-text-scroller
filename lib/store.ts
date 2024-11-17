@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userDataReducer from "./features/addUserData/userDataSlice.ts";
-import userPostReducer from "./features/addUserPosts/userPostSlice.ts";
-import reelsReducer from "./features/addReelPosts/reelPostSlice.ts";
-import reelIndexReducer from "./features/reelIndex/reelIndexSlice.ts"
-import pageNoReducer from "./features/pageNo/pageNoSlice.ts"
-import dataLeftReducer from "./features/dataLeft/dataLeftSlice.ts"
+import userDataReducer from "./features/addUserData/userDataSlice";
+import userPostReducer from "./features/addUserPosts/userPostSlice";
+import reelsReducer from "./features/addReelPosts/reelPostSlice";
+import reelIndexReducer from "./features/reelIndex/reelIndexSlice"
+import pageNoReducer from "./features/pageNo/pageNoSlice"
+import dataLeftReducer from "./features/dataLeft/dataLeftSlice"
 
 
 export const makeStore = () => {

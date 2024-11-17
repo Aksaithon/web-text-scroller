@@ -1,6 +1,6 @@
-import getConnection from "@/lib/dbConnect.ts";
-import Page from "@/Models/PageDataSchema.ts";
-import Users from "@/Models/UserDataSchema.ts";
+import getConnection from "@/lib/dbConnect";
+import Page from "@/Models/PageDataSchema";
+import Users from "@/Models/UserDataSchema";
 import { NextRequest, NextResponse } from "next/server";
 
 

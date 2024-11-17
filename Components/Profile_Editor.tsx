@@ -6,10 +6,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./ui/dialog.tsx";
-import EditProfileForm from "./EditProfileForm.tsx";
+} from "./ui/dialog";
+import EditProfileForm from "./EditProfileForm";
 import { useSelector } from "react-redux";
-import { RootState } from "@/lib/store.ts";
+import { RootState } from "@/lib/store";
 
 const Profile_Editor = () => {
   const [showForm, setShowForm] = useState(false);

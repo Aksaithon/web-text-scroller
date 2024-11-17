@@ -1,5 +1,5 @@
-import getConnection from "@/lib/dbConnect.ts";
-import Page from "@/Models/PageDataSchema.ts";
+import getConnection from "@/lib/dbConnect";
+import Page from "@/Models/PageDataSchema";
 import { NextRequest, NextResponse } from "next/server";
 
 // get all data with pagination

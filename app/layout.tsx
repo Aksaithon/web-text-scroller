@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import SaveUserToDatabase from "../lib/saveUserData_toDatabase.tsx";
-import StoreProvider from "./storeProvider.tsx";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar.tsx";
-import { AppSidebar } from "@/components/app-sidebar.tsx"
+import SaveUserToDatabase from "../lib/saveUserData_toDatabase";
+import StoreProvider from "./storeProvider";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/app-sidebar"
 
 
 const inter = Inter({ subsets: ["latin"] });
