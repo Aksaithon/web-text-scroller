@@ -1,6 +1,6 @@
 "use client";
 
-import SignUpForm from "@/components/SignUpForm";
+import SignUpForm from "../../../components/SignUpForm";
 import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
